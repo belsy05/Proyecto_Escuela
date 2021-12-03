@@ -11,6 +11,7 @@ class Profesor extends Model
 
     public function grados(){
         return $this->belongsToMany(Grado::class)->withPivot('id');
+        //esto es un comentario
     }
 
 }
